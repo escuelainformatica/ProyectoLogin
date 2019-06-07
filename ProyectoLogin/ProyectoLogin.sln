@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoLogin", "ProyectoLogin\ProyectoLogin.csproj", "{4DC17B98-1804-48DB-B744-FE44192CF5F3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "video", "video", "{2FAE60FC-6115-482E-87E0-D00C7139C88F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\jorge\Documents\Camtasia Studio\crear un proyecto con github\crear un proyecto con github.avi = ..\..\..\Users\jorge\Documents\Camtasia Studio\crear un proyecto con github\crear un proyecto con github.avi
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
