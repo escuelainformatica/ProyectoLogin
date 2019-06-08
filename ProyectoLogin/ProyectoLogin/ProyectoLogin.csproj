@@ -67,11 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Imagen\197374.svg" />
+    <Content Include="Imagen\197484.svg" />
     <Content Include="Global.asax" />
     <Content Include="Login.aspx" />
     <Content Include="Imagen\login.svg" />
     <Content Include="PantallaInicial.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebImagenes.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -94,6 +97,13 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioServicio.cs" />
+    <Compile Include="WebImagenes.aspx.cs">
+      <DependentUpon>WebImagenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebImagenes.aspx.designer.cs">
+      <DependentUpon>WebImagenes.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

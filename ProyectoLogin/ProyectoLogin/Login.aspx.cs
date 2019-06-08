@@ -25,7 +25,7 @@ namespace ProyectoLogin
                 Response.Redirect("PantallaInicial.aspx");
             } else
             {
-                Label1.Text="Usuario o clave incorrecto";
+                Label1.Text="Usuario o Clave incorrecto";
             }
         }
     }

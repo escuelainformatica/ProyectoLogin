@@ -13,12 +13,12 @@ namespace ProyectoLogin
         {
             Usuario usr=new Usuario();
             usr.Login=txtUsuario.Text;
-            usr.clave=txtClave.Text;
+            usr.Clave=txtClave.Text;
             return usr;
         }
         public static bool Validar(Usuario usr)
         {
-            if (usr.Login=="admin" && usr.clave=="admin")
+            if (usr.Login=="admin" && usr.Clave=="admin")
             {
                 return true;
             }

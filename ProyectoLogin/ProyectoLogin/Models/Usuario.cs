@@ -8,7 +8,7 @@ namespace ProyectoLogin.Models
     public class Usuario
     {
         public string Login { set; get;}
-        public string clave { set; get;}
+        public string Clave { set; get;}
 
     }
 }
